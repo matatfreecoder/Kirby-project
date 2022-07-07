@@ -1,11 +1,49 @@
+:root {
+	--main-text-color: #1423a5;
+}
+
 body {
 	font-family: "Nunito", sans-serif;
+	/*	background: rgba(255, 166, 0, 0.144);
+	background-image: url(/images/bg_starpattern-white.png);*/
+	background-image: url(/images/bg_starpattern-white.png),
+		radial-gradient(
+			circle at 10% 20%,
+			rgb(255, 200, 124) 0.1%,
+			rgb(252, 251, 121) 90%
+		);
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+	text-align: center;
+	color: var(--main-text-color);
 }
 
 h1 {
-	font-weight: bold;
+	font-size: 64px;
+	margin-bottom: 0;
 }
 
-p {
-	font-weight: normal;
+.main-text {
+	text-align: center;
+}
+
+.btn-branding {
+	background-color: orangered;
+	color: antiquewhite;
+	font-weight: bolder;
+	font-size: 20px;
+	line-height: 28px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+}
+
+.btn-branding:hover {
+	background-color: orange;
+	color: var(--main-text-color);
 }

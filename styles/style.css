@@ -15,7 +15,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
 	font-weight: bold;
 	color: var(--main-text-color);
 }
@@ -25,11 +26,14 @@ h1 {
 	margin-bottom: 0;
 }
 
-.greeting {
-	text-align: center;
+h2 {
+	font-size: 48px;
 }
 
-.main-text {
+p {
+	font-size: 18px;
+}
+.greeting {
 	text-align: center;
 }
 
@@ -47,4 +51,18 @@ h1 {
 .btn-branding:hover {
 	background-color: orange;
 	color: var(--main-text-color);
+}
+
+.hero-main {
+	border: solid white 15px;
+	border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+	.more-button {
+		text-align: center;
+	}
+	.unit-text {
+		text-align: center;
+	}
 }

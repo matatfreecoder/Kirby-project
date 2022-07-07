@@ -54,12 +54,12 @@ p {
 	color: var(--main-text-color);
 }
 
-.hero-main {
+.hero-main-img {
 	border: solid white 15px;
 	border-radius: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 640px) {
 	.more-button {
 		text-align: center;
 	}
@@ -68,8 +68,5 @@ p {
 	}
 	.unit-main h2 {
 		text-align: center;
-	}
-	.unit-main {
-		padding: 0 12px;
 	}
 }

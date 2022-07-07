@@ -4,8 +4,6 @@
 
 body {
 	font-family: "Nunito", sans-serif;
-	/*	background: rgba(255, 166, 0, 0.144);
-	background-image: url(/images/bg_starpattern-white.png);*/
 	background-image: url(/images/bg_starpattern-white.png),
 		radial-gradient(
 			circle at 10% 20%,
@@ -19,13 +17,16 @@ h2,
 h3,
 h4 {
 	font-weight: bold;
-	text-align: center;
 	color: var(--main-text-color);
 }
 
 h1 {
 	font-size: 64px;
 	margin-bottom: 0;
+}
+
+.greeting {
+	text-align: center;
 }
 
 .main-text {

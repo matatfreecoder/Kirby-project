@@ -32,6 +32,7 @@ h2 {
 
 p {
 	font-size: 18px;
+	line-height: 30px;
 }
 .greeting {
 	text-align: center;
@@ -64,5 +65,11 @@ p {
 	}
 	.unit-text {
 		text-align: center;
+	}
+	.unit-main h2 {
+		text-align: center;
+	}
+	.unit-main {
+		padding: 0 12px;
 	}
 }

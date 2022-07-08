@@ -54,6 +54,12 @@ hr {
 	background-image: url(/images/about-background.gif);
 	padding-bottom: 40px;
 }
+
+.history-content {
+	background-image: url(/images/background.jpg);
+	padding-bottom: 40px;
+}
+
 .greeting {
 	text-align: center;
 }
@@ -87,6 +93,10 @@ hr {
 	text-transform: uppercase;
 	font-size: 2em;
 	color: var(--second-text-color);
+}
+
+.transparent {
+	background: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 640px) {

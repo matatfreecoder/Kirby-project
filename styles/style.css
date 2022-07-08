@@ -4,12 +4,6 @@
 
 body {
 	font-family: "Nunito", sans-serif;
-	background-image: url(/images/bg_starpattern-white.png),
-		radial-gradient(
-			circle at 10% 20%,
-			rgb(255, 200, 124) 0.1%,
-			rgb(252, 251, 121) 90%
-		);
 }
 
 h1,
@@ -33,6 +27,21 @@ h2 {
 p {
 	font-size: 18px;
 	line-height: 30px;
+}
+
+.index-content {
+	background-image: url(/images/bg_starpattern-white.png),
+		radial-gradient(
+			circle at 10% 20%,
+			rgb(255, 200, 124) 0.1%,
+			rgb(252, 251, 121) 90%
+		);
+	padding-bottom: 40px;
+}
+
+.about-content {
+	background-image: url(/images/about-background.jpg);
+	padding-bottom: 40px;
 }
 .greeting {
 	text-align: center;

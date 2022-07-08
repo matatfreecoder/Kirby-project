@@ -5,6 +5,7 @@
 
 body {
 	font-family: "Nunito", sans-serif;
+	background-color: lightgray;
 }
 
 h1,
@@ -60,6 +61,11 @@ hr {
 	padding-bottom: 40px;
 }
 
+.contact-content {
+	background-image: url(/images/background-contacts.png);
+	padding-bottom: 40px;
+}
+
 .greeting {
 	text-align: center;
 }
@@ -71,11 +77,16 @@ hr {
 	font-size: 20px;
 	line-height: 28px;
 	padding: 10px 20px;
-	border: none;
+	border: 2px white;
 	border-radius: 10px;
 }
 
 .btn-branding:hover {
+	background-color: orange;
+	color: var(--main-text-color);
+}
+
+.btn-branding:focus {
 	background-color: orange;
 	color: var(--main-text-color);
 }
@@ -97,6 +108,38 @@ hr {
 
 .transparent {
 	background: rgba(255, 255, 255, 0.5);
+}
+
+.history {
+	text-align: center;
+}
+
+.social i {
+	font-size: 64px;
+	color: bisque;
+}
+
+/*.social a {
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 24px;
+	text-decoration: none;
+	position: relative;
+	bottom: 18px;
+	color: var(--main-text-color);
+}*/
+.social h2 {
+	text-align: center;
+}
+
+.social p {
+	text-align: center;
+	font-size: 24px;
+}
+
+.social a {
+	text-decoration: none;
+	color: var(--main-text-color);
 }
 
 @media (max-width: 640px) {

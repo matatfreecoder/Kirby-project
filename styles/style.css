@@ -1,15 +1,11 @@
 :root {
 	--main-text-color: #1423a5;
 	--second-text-color: orangered;
+	--third-text-color: #1422a5b5;
 }
 
 body {
 	font-family: "Nunito", sans-serif;
-	background-image: radial-gradient(
-		circle at 10% 20%,
-		rgb(255, 200, 124) 0.1%,
-		rgb(252, 251, 121) 90%
-	);
 }
 
 h1,
@@ -45,14 +41,17 @@ hr {
 	margin: -20px auto 10px;
 }
 
+.index-page {
+	background-image: radial-gradient(
+		circle at 10% 20%,
+		rgb(255, 200, 124) 0.1%,
+		rgb(252, 251, 121) 90%
+	);
+}
+
 .index-content {
-	background-image: url(/images/bg_starpattern-white.png),
-		radial-gradient(
-			circle at 10% 20%,
-			rgb(255, 200, 124) 0.1%,
-			rgb(252, 251, 121) 90%
-		);
 	padding-bottom: 40px;
+	background-image: url(/images/bg_starpattern-white.png);
 }
 
 .about-content {
@@ -110,10 +109,6 @@ hr {
 	color: var(--second-text-color);
 }
 
-.transparent {
-	background: rgba(255, 255, 255, 0.5);
-}
-
 .history {
 	text-align: center;
 }
@@ -142,7 +137,7 @@ hr {
 }
 
 nav {
-	padding: 20px 0;
+	padding: 10px 0;
 }
 nav li {
 	display: inline;
@@ -168,11 +163,29 @@ nav a.active {
 	color: var(--main-text-color);
 }
 
+.footer-sign {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.social-footer a {
+	margin: 0 20px;
+	color: var(--third-text-color);
+	font-size: 18px;
+	padding: 6px 10px;
+}
+
+.social-footer a:hover {
+	background-color: white;
+	border-radius: 50%;
+}
+
 @media (max-width: 640px) {
 	.more-button {
 		text-align: center;
 	}
-	.unit-text {
+	.unit-text,
+	.footer-sign {
 		text-align: center;
 	}
 	.unit-main h2 {

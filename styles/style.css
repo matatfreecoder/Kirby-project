@@ -117,12 +117,9 @@ hr {
 	color: var(--main-text-color);
 }
 
-.hero-main-img {
-	border: solid white 10px;
+.hero-img {
+	border: solid rgba(255, 255, 255, 0.55) 10px;
 	border-radius: 20px;
-}
-
-.hero-about {
 	padding: 30px;
 }
 
@@ -209,6 +206,13 @@ nav a.active {
 }
 
 @media (max-width: 640px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
 	.more-button {
 		text-align: center;
 	}

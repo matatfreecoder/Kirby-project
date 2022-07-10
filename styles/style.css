@@ -42,16 +42,39 @@ hr {
 }
 
 .index-page {
-	background-image: radial-gradient(
-		circle at 10% 20%,
-		rgb(255, 200, 124) 0.1%,
-		rgb(252, 251, 121) 90%
+	background: linear-gradient(to bottom, #fcd555 10%, #ffae29 100%);
+}
+
+.about-page {
+	background: linear-gradient(
+		149deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(153, 188, 20, 1) 0%,
+		rgba(217, 228, 73, 1) 15%
+	);
+}
+
+.history-page {
+	background: linear-gradient(
+		149deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(255, 96, 163, 1) 0%,
+		rgba(255, 96, 163, 0.274563658471201) 40%
+	);
+}
+
+.contact-page {
+	background: linear-gradient(
+		0deg,
+		rgba(188, 118, 181, 1) 32%,
+		rgba(141, 82, 202, 1) 60%
 	);
 }
 
 .index-content {
 	padding-bottom: 40px;
-	background-image: url(/images/bg_starpattern-white.png);
+	/*background-image: url(/images/bg_starpattern-orange.png);*/
+	background-image: url(/images/star-single-background-or.png);
 }
 
 .about-content {
@@ -113,6 +136,10 @@ hr {
 	text-align: center;
 }
 
+.transparent {
+	background: rgba(255, 255, 255, 0.55);
+}
+
 .social i {
 	font-size: 64px;
 	color: bisque;
@@ -166,6 +193,7 @@ nav a.active {
 .footer-sign {
 	font-size: 12px;
 	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
 }
 
 .social-footer a {
@@ -176,7 +204,7 @@ nav a.active {
 }
 
 .social-footer a:hover {
-	background-color: white;
+	background-color: #ffe9ba;
 	border-radius: 50%;
 }
 
